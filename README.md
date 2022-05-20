@@ -65,6 +65,8 @@ NEAT. If you want to play around with it, change some options and try make your 
 Assets directory contains images of each entity we want to display on window game.
 Also notice the bird entity is the only one with image based animation so there is several images of one bird entity.
 
+![Image of neuroevolution game](https://github.com/Zoriksde/python-neuroevolution/blob/main/neuroevolution.png?raw=true)
+
 I do recommend this [article](https://arxiv.org/pdf/2006.05415.pdf) to read about neuroevolution concepts.
 
 There is implemented game in ```main.py```.
