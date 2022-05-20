@@ -1,21 +1,19 @@
 """Engine Class"""
 
+from NE.Entities.Base import Base
+from NE.Entities.Bird import Bird
+from NE.Entities.Pipe import Pipe
 
 from enum import Enum
 from typing import List, Tuple
-
-
 from pygame import Surface
 from pygame.sysfont import SysFont
 from neat.config import Config
 from neat.nn import FeedForwardNetwork
 from neat import DefaultGenome
+
 import neat
 import pygame
-
-from NE.Entities.Base import Base
-from NE.Entities.Bird import Bird
-from NE.Entities.Pipe import Pipe
 
 FRAMES_PER_SECOND = 30
 BIRD_POSITION_X = 220
