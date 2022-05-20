@@ -65,10 +65,15 @@ NEAT. If you want to play around with it, change some options and try make your 
 Assets directory contains images of each entity we want to display on window game.
 Also notice the bird entity is the only one with image based animation so there is several images of one bird entity.
 
-![Image of neuroevolution game](https://github.com/Zoriksde/python-neuroevolution/blob/main/neuroevolution.png?raw=true)
-
 I do recommend this [article](https://arxiv.org/pdf/2006.05415.pdf) to read about neuroevolution concepts.
 
 There is implemented game in ```main.py```.
+
+## Visualization 
+
+There are some bird entities generated, which are controlled by neural networks assigned to them. The visualization process consists of animating the bird
+and removing some if collision occured. There is an example below:
+
+![Image of neuroevolution game](https://github.com/Zoriksde/python-neuroevolution/blob/main/neuroevolution.png?raw=true)
 
 Project is written with main aim to help anyone who is interested in these topics. Enjoy playing around!
